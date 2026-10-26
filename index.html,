@@ -1,0 +1,65 @@
+
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#102a2a">
+  <title>MiEje Market | Acceso a la plataforma</title>
+  <link rel="stylesheet" href="panel-live.css">
+  <style>
+    body {
+      margin: 0;
+      min-height: 100vh;
+      display: grid;
+      place-items: center;
+      padding: 20px;
+      box-sizing: border-box;
+      background: #f4f7fa;
+      color: #17232e;
+      font-family: Arial, sans-serif;
+    }
+    main {
+      width: 100%;
+      max-width: 520px;
+      box-sizing: border-box;
+      padding: 32px;
+      background: white;
+      border: 1px solid #e2e8ef;
+      border-radius: 18px;
+      box-shadow: 0 12px 35px #14283c12;
+    }
+    h1 { margin-bottom: 10px; }
+    p { line-height: 1.6; color: #687787; }
+    .button {
+      display: block;
+      padding: 14px;
+      margin-top: 24px;
+      border-radius: 10px;
+      background: #176b57;
+      color: white;
+      text-align: center;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    .brand { font-size: 22px; font-weight: bold; color: #176b57; }
+    .note { margin-top: 22px; font-size: 13px; }
+  </style>
+</head>
+<body>
+  <main>
+    <div class="brand">M+ MiEje Market</div>
+    <p>PLATAFORMA DE GESTIÓN EMPRESARIAL</p>
+    <h1>Bienvenido</h1>
+    <p>
+      Ingresa con tu cuenta autorizada para acceder
+      al panel correspondiente a tu función.
+    </p>
+    <a class="button" href="login.html">Iniciar sesión</a>
+    <p class="note">
+      El acceso a las funciones administrativas requiere
+      una cuenta autorizada. No compartas tu contraseña.
+    </p>
+  </main>
+</body>
+</html>
